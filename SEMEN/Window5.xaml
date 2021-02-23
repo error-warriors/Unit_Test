@@ -1,0 +1,50 @@
+﻿<Window x:Class="SEMEN.Window5"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SEMEN"
+        mc:Ignorable="d"
+        Icon="C:/SEMEN-master/SEMEN/icos.ico"
+        Title="Редагування даних" Height="516.4" Width="900" ResizeMode="NoResize">
+    <Window.Background>
+        <ImageBrush ImageSource="download-abstract-blue-gradient-high-quality-frame-ppt.jpeg"/>
+    </Window.Background>
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Button Content="Додати запис" HorizontalAlignment="Left" Height="49" Margin="30,414,0,0" VerticalAlignment="Top" Width="179" Click="Button_Click" FontSize="20" FontFamily="Segoe UI Light" BorderBrush="Black"/>
+        <Rectangle Fill="#7F000000" HorizontalAlignment="Left" Height="374" Margin="20,14,0,0" Stroke="Black" VerticalAlignment="Top" Width="849" RadiusY="25" RadiusX="25"/>
+        <Rectangle Fill="White" HorizontalAlignment="Left" Height="37" Margin="20,14,0,0" Stroke="White" VerticalAlignment="Top" Width="849"/>
+        <TextBox x:Name="t_1" Height="37" Margin="224,76,473.6,0" VerticalAlignment="Top" FontFamily="Segoe UI Light" FontSize="18" BorderBrush="#00000000" Background="#CCFFFFFF" Foreground="Black" VerticalContentAlignment="Center" />
+        <Label Content="ПІБ" HorizontalAlignment="Left" Height="40" Margin="100,73,0,0" VerticalAlignment="Top" Width="51" FontFamily="Segoe UI Light" FontSize="20" RenderTransformOrigin="1.529,0.944" Foreground="White"/>
+
+        <Label Content="Інформаційне поле" HorizontalAlignment="Left" Height="40" Margin="333,14,0,0" VerticalAlignment="Top" Width="180" FontFamily="Segoe UI Light" FontSize="20" RenderTransformOrigin="1.529,0.944"/>
+        <Button Content="Видалити запис" HorizontalAlignment="Left" Height="49" Margin="251,414,0,0" VerticalAlignment="Top" Width="179" Click="Button_Click2" FontSize="20" FontFamily="Segoe UI Light" BorderBrush="Black"/>
+        <Button Content="Редагувати запис" HorizontalAlignment="Left" Height="49" Margin="472,414,0,0" VerticalAlignment="Top" Width="179" Click="Button_Click3" FontSize="20" FontFamily="Segoe UI Light" BorderBrush="Black"/>
+        <Button Content="Архівувати запис" HorizontalAlignment="Left" Height="49" Margin="690,414,0,0" VerticalAlignment="Top" Width="179" Click="Button_Click4" FontSize="20" FontFamily="Segoe UI Light" BorderBrush="Black"/>
+        <Button Content="Назад" HorizontalAlignment="Left" Height="30" Margin="785,18,0,0" VerticalAlignment="Top" Width="59" FontFamily="Segoe UI Light" FontSize="16" Click="Button_Click_1" Background="#FFE5E5E5" BorderBrush="Black"/>
+        <Label Content="Стать" HorizontalAlignment="Left" Height="40" Margin="89,132,0,0" VerticalAlignment="Top" Width="62" FontFamily="Segoe UI Light" FontSize="20" RenderTransformOrigin="1.529,0.944" Foreground="White"/>
+        <Label Content="Вік" HorizontalAlignment="Left" Height="40" Margin="98,195,0,0" VerticalAlignment="Top" Width="40" FontFamily="Segoe UI Light" FontSize="20" RenderTransformOrigin="1.529,0.944" Foreground="White"/>
+        <Label Content="Номер телефона" HorizontalAlignment="Left" Height="40" Margin="41,255,0,0" VerticalAlignment="Top" Width="158" FontFamily="Segoe UI Light" FontSize="20" RenderTransformOrigin="1.529,0.944" Foreground="White"/>
+        <Label Content="Номер палати" HorizontalAlignment="Left" Height="40" Margin="57,322,0,0" VerticalAlignment="Top" Width="142" FontFamily="Segoe UI Light" FontSize="20" RenderTransformOrigin="1.529,0.944" Foreground="White"/>
+        <Label Content="Особливі прикмети" HorizontalAlignment="Left" Height="40" Margin="464,319,0,0" VerticalAlignment="Top" Width="179" FontFamily="Segoe UI Light" FontSize="20" RenderTransformOrigin="1.529,0.944" Foreground="White"/>
+        <Label Content="Останній діагноз" HorizontalAlignment="Left" Height="40" Margin="469,192,0,0" VerticalAlignment="Top" Width="163" FontFamily="Segoe UI Light" FontSize="20" RenderTransformOrigin="1.529,0.944" Foreground="White"/>
+        <Label Content="Етіологія" HorizontalAlignment="Left" Height="40" Margin="513,255,0,0" VerticalAlignment="Top" Width="97" FontFamily="Segoe UI Light" FontSize="20" RenderTransformOrigin="1.529,0.944" Foreground="White"/>
+        <Label Content="Причина виписки" HorizontalAlignment="Left" Height="40" Margin="466,129,0,0" VerticalAlignment="Top" Width="166" FontFamily="Segoe UI Light" FontSize="20" RenderTransformOrigin="1.529,0.944" Foreground="White"/>
+        <TextBox x:Name="t_4" Height="37" Margin="225,252,472.6,0" VerticalAlignment="Top" FontFamily="Segoe UI Light" FontSize="18" BorderBrush="#00000000" Background="#CCFFFFFF" Foreground="Black" VerticalContentAlignment="Center"/>
+        <TextBox x:Name="t_3" Height="37" Margin="225,195,570.6,0" VerticalAlignment="Top" FontFamily="Segoe UI Light" FontSize="18" BorderBrush="#00000000" Background="#CCFFFFFF" Foreground="Black" VerticalContentAlignment="Center"/>
+        <TextBox x:Name="t_5" Height="37" Margin="225,320,564.6,0" VerticalAlignment="Top" FontFamily="Segoe UI Light" FontSize="18" BorderBrush="#00000000" Background="#CCFFFFFF" Foreground="Black" VerticalContentAlignment="Center"/>
+        <TextBox x:Name="t_6" Height="37" Margin="648,320,49.6,0" VerticalAlignment="Top" FontFamily="Segoe UI Light" FontSize="18" BorderBrush="#00000000" Background="#CCFFFFFF" Foreground="Black" VerticalContentAlignment="Center"/>
+        <TextBox x:Name="t_7" Height="37" Margin="648,192,49.6,0" VerticalAlignment="Top" FontFamily="Segoe UI Light" FontSize="18" BorderBrush="#00000000" Background="#CCFFFFFF" Foreground="Black" VerticalContentAlignment="Center"/>
+        <TextBox x:Name="t_8" Height="37" Margin="647,255,71.6,0" VerticalAlignment="Top" FontFamily="Segoe UI Light" FontSize="18" BorderBrush="#00000000" Background="#CCFFFFFF" Foreground="Black" VerticalContentAlignment="Center"/>
+        <TextBox x:Name="t_11" Height="37" Margin="648,132,49.6,0" VerticalAlignment="Top" FontFamily="Segoe UI Light" FontSize="18" BorderBrush="#00000000" Background="#CCFFFFFF" Foreground="Black" VerticalContentAlignment="Center"/>
+        <Label Content="ID" HorizontalAlignment="Left" Height="40" Margin="535,73,0,0" VerticalAlignment="Top" Width="30" FontFamily="Segoe UI Light" FontSize="20" RenderTransformOrigin="1.529,0.944" Foreground="White"/>
+        <TextBox x:Name="t_10" Height="37" Margin="648,73,169.6,0" VerticalAlignment="Top" FontFamily="Segoe UI Light" FontSize="18" BorderBrush="#00000000" Background="#CCFFFFFF" Foreground="Black"  VerticalContentAlignment="Center"/>
+        <ComboBox HorizontalAlignment="Left" Margin="225,138,0,0" VerticalAlignment="Top" Width="96" Height="34" SelectedIndex="0" x:Name="t_2" VerticalContentAlignment="Center" Background="#CCFFFFFF" >
+            <TextBlock Height="20">Жен.</TextBlock>
+            <TextBlock Height="20">Муж.</TextBlock>
+        </ComboBox>
+    </Grid>
+</Window>

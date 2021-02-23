@@ -1,0 +1,21 @@
+﻿<Window x:Class="SEMEN.Window3"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SEMEN"
+        mc:Ignorable="d"
+        Icon="C:/SEMEN-master/SEMEN/icos.ico"
+        Title="Розробники" Height="450" Width="800" Background="lightblue" HorizontalAlignment="Center" VerticalAlignment="Center" WindowStartupLocation="CenterScreen" ResizeMode="NoResize">
+    <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="download-abstract-blue-gradient-high-quality-frame-ppt.jpeg"/>
+        </Grid.Background>
+        <Rectangle Fill="#7F000000" HorizontalAlignment="Left" Height="344" Margin="20,49,0,0" Stroke="Black" VerticalAlignment="Top" Width="740" RadiusY="25" RadiusX="25"/>
+        <Label Content="Team Leader – визначив предметну область, задав мову програмування, середовище&#xD;&#xA;розробки, створив та слідкував за дошкою Trello, додавав своєчасну інформацію та&#xD;&#xA;разділяв завдання по мірі його виконання між учасниками проекту.
+&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;Back-end developer – розробляв реалізацію функціональних характеристик проекту, &#xD;&#xA;виконав зв'язок бази даних та програми.&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;Front-end developer – розробив інтерфейс програми користуючись інструментами С#,&#xD;&#xA;а саме WPF також розробив прототип дизайну програмного продуку за допомогою&#xD;&#xA;програми Adobe XDDD.
+&#xD;&#xA;" HorizontalAlignment="Left" Height="304" Margin="24,68,0,0" VerticalAlignment="Top" Width="739" FontSize="18" Foreground="White"/>
+        <Button Content="Назад" HorizontalAlignment="Left" Height="29" Margin="683,10,0,0" VerticalAlignment="Top" Width="77" Click="Button_Click" FontFamily="Segoe UI Light" FontSize="18" BorderBrush="Black"/>
+
+    </Grid>
+</Window>

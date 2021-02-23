@@ -1,0 +1,31 @@
+﻿<Window x:Class="SEMEN.Window1"
+ xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SEMEN"
+        mc:Ignorable="d"
+        Icon="C:/SEMEN-master/SEMEN/icos.ico"
+        Title="АІС : Облік пацієнтів клінічної лікарні" Height="447.6" Width="945.6" WindowStartupLocation="CenterScreen" ResizeMode="NoResize">
+    <Window.Background>
+        <ImageBrush ImageSource="download-abstract-blue-gradient-high-quality-frame-ppt.jpeg"/>
+    </Window.Background>
+
+    <UniformGrid Columns="4" Margin="0,0,3.6,0" Height="361" VerticalAlignment="Bottom">
+        <DataGrid x:Name="resout" FontSize="12" HorizontalAlignment="Left" Height="341" Margin="10,10,-692.4,0" VerticalAlignment="Top" Width="916" BorderBrush="Black" AutoGenerateColumns="False" Background="#CCA6ACFA" IsReadOnly="True" CanUserResizeRows="False">
+            <DataGrid.Columns>
+                <DataGridTextColumn Binding="{Binding PIB}" Header="ПІБ" Width="135"/>
+                <DataGridTextColumn Binding="{Binding sex}" Header="Стать" Width="150"/>
+                <DataGridTextColumn Binding="{Binding age}" Header="Вік" Width="95"/>
+                <DataGridTextColumn Binding="{Binding Etiology}" Header="Попередній діагноз" Width="135"/>
+                <DataGridTextColumn Binding="{Binding Special}" Header="Додаткові характеристики" Width="170"/>
+                <DataGridTextColumn Binding="{Binding DateOut}" Header="Дата виписки" Width="100"/>
+                <DataGridTextColumn Binding="{Binding resOut}" Header="Причина виписки" Width="125"/>
+            </DataGrid.Columns>
+        </DataGrid>
+        <Label x:Name="Cum" Content="Виписані пацієнти" Margin="21.4,-54,-182.8,355.8" FontSize="40" FontFamily="Segoe UI Light" Foreground="White"/>
+        <Button Content="Назад" Height="30" VerticalAlignment="Top" Click="Button_Click" FontFamily="Segoe UI Light" FontSize="18" Margin="342,-35,-207.4,0" HorizontalAlignment="Left" Width="99" BorderBrush="Black"/>
+        <Button x:Name="Cumming" Content="Button" Margin="-20,-42,166,364" Click="Cumming_Click"/>
+
+    </UniformGrid>
+</Window>

@@ -1,0 +1,52 @@
+﻿<Window x:Class="SEMEN.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"        
+        xmlns:local="clr-namespace:SEMEN"
+        mc:Ignorable="d"
+        Icon="C:/SEMEN-master/SEMEN/icos.ico"
+        Title="АІС : Облік пацієнтів клінічної лікарні" Height="370.467" Width="618.933" HorizontalAlignment="Center" VerticalAlignment="Center" WindowStartupLocation="CenterScreen" ResizeMode="NoResize">
+
+    <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="download-abstract-blue-gradient-high-quality-frame-ppt.jpeg"/>
+        </Grid.Background>
+
+        <Button Content="Картки медичної статистики" Margin="29,96,332.8,194.8" FontSize="18" Click="Button_Click_2" FontFamily="Segoe UI Light" Background="#FFDDDDDD"/>
+        <Button Content="Виписані пацієнти" Margin="29,165,332.8,125.8" FontSize="18" Click="Button_Click" FontFamily="Segoe UI Light" Background="#FFDDDDDD"/>
+        <Button Height="28" Margin="25,291,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" Width="37" Click="Button_Click_1" BorderBrush="Black">
+            <Button.Background>
+                <ImageBrush ImageSource="37543.png" Stretch="Uniform"/>
+            </Button.Background>
+        </Button>
+        <Label x:Name ="Roz" Content="                Розклад&#xA;____________________________________________________________&#xA;        Понеділок - 8 : 30&#xA;        Вівторок   -  8 : 30&#xA;        Середа   -    9 : 00&#xA;        Четверг   -   8 : 40&#xA;        П'ятниця  -  9 : 30  &#xA;  Субота-Неділя - Вихідний&#xA;____________________________________________________________" Height="275" Margin="319,34,0,0" Width="271" FontFamily="Segoe UI Light" FontSize="22" Foreground="White" VerticalAlignment="Top" HorizontalAlignment="Left" BorderBrush="Black" Background="#00000000">
+            <Label.Effect>
+                <DropShadowEffect/>
+            </Label.Effect>
+        </Label>
+        <Button Content="" HorizontalAlignment="Left" Height="41" Margin="520,10,0,0" VerticalAlignment="Top" Width="43" BorderBrush="#00707070" Click="Button_Click_3" Cursor="Arrow">
+            <Button.Background>
+                <ImageBrush ImageSource="notepad_78910.png"/>
+            </Button.Background>
+        </Button>
+        <Button Content="" HorizontalAlignment="Left" Height="41" Margin="363,12,0,0" VerticalAlignment="Top" Width="37" Click="Button_Click_4" RenderTransformOrigin="0.5,0.5">
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform AngleX="-0.036"/>
+                    <RotateTransform Angle="179.685"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Button.RenderTransform>
+            <Button.Background>
+                <ImageBrush ImageSource="1486348526-arrow-back-backwards-repeat-previous_80453.png" Stretch="UniformToFill"/>
+            </Button.Background>
+            <Button.BorderBrush>
+                <ImageBrush ImageSource="1486348526-arrow-back-backwards-repeat-previous_80453.png"/>
+            </Button.BorderBrush>
+        </Button>
+
+    </Grid>
+
+</Window>
